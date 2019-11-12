@@ -6,7 +6,7 @@ import Testimonials from './Testimonials';
 const Section = styled.div``;
 
 const TestimonialsData = () => (
-  <Section className="section is-block is-relative is-light is-medium">
+  <Section className="section is-block is-relative is-light">
     <div className="container">
       <div className="columns is-centered">
         <div className="column">
