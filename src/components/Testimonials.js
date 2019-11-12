@@ -1,25 +1,22 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Wrapper = styled.div``;
 
 const Testimonials = props => {
-  const { title, subtitle, subtext } = props;
+  const { subtext, Img, names } = props;
   return (
-    <Wrapper>
-      <div className="card">
-        <div className="card-content">
-          <div className="media">
-            <div className="media-content">
-              <p className="title is-4">{title}</p>
-              <p className="subtitle is-6">{subtitle}</p>
-            </div>
-          </div>
-
-          <div className="content">{subtext}</div>
+    <div className="card">
+      <div className="card-content has-text-centered">
+        <div className="media">
+          <figure className="image is-96x96">
+            <img className="is-rounded" src={Img} alt="" />
+          </figure>
+        </div>
+        <div className="content">{subtext}</div>
+        <div className="media-content has-text-centered">
+          <p className="has-text-weight-bold">{names}</p>
+          <p className="is-size-7">company</p>
         </div>
       </div>
-    </Wrapper>
+    </div>
   );
 };
 
