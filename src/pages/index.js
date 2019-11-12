@@ -3,6 +3,7 @@ import Seo from '../components/Seo';
 import HeroHeader from '../components/HeroHeader';
 import Clients from '../components/Clients';
 import Features from '../components/Features';
+import FeaturesContent from '../components/FeaturesContent';
 import Layout from '../components/Layout';
 
 export default class IndexPage extends React.Component {
@@ -13,6 +14,7 @@ export default class IndexPage extends React.Component {
         <HeroHeader />
         <Clients />
         <Features />
+        <FeaturesContent />
       </Layout>
     );
   }
