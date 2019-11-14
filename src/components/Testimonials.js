@@ -22,7 +22,9 @@ const Testimonials = props => {
               <img className="is-rounded" src={img} alt="" />
             </figure>
           </div>
-          <div className="content">{subtext}</div>
+          <div className="content">
+            <p>{subtext}</p>
+          </div>
           <div className="media-content has-text-centered">
             <p className="has-text-weight-bold">{names}</p>
             <p className="is-size-7">company</p>

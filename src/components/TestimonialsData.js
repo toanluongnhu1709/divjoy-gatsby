@@ -4,15 +4,15 @@ import styled from 'styled-components';
 import Testimonials from './Testimonials';
 
 const Section = styled.div`
-  background-color: #f5f5f5;
+  background-color: ${props => props.theme.lightAccent};
 `;
 
 const TestimonialsData = () => (
   <Section className="section">
     <div className="container">
-      <h6 className="title  has-text-centered is-spaced has-text-weight-bold is-3">
+      <h1 className="title  has-text-centered is-spaced has-text-weight-bold is-3">
         Here s what people are saying
-      </h6>
+      </h1>
       <div className="columns">
         <div className="column">
           <Testimonials

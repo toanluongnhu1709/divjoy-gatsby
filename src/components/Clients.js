@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Section = styled.div`
-  background-color: #f5f5f5;
+  background-color: ${props => props.theme.lightAccent};
   .image {
     width: 150px;
   }
