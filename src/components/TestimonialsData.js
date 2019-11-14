@@ -3,24 +3,29 @@ import styled from 'styled-components';
 
 import Testimonials from './Testimonials';
 
-const Section = styled.div``;
+const Section = styled.div`
+  background-color: #f5f5f5;
+`;
 
 const TestimonialsData = () => (
-  <Section className="section is-block is-relative is-light">
+  <Section className="section">
     <div className="container">
-      <div className="columns is-centered">
+      <h6 className="title  has-text-centered is-spaced has-text-weight-bold is-3">
+        Here s what people are saying
+      </h6>
+      <div className="columns">
         <div className="column">
           <Testimonials
             names="Sarah Kline"
-            img="./images/cardimageone.jpeg"
-            subtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+            img="./images/cardimagetwo.jpeg"
+            subtext="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!"
           />
         </div>
         <div className="column">
           {' '}
           <Testimonials
             names="Sarah Kline"
-            img="./images/cardimagetwo.jpeg"
+            img="./images/cardimageone.jpeg"
             subtext="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!"
           />
         </div>

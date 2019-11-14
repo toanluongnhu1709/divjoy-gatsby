@@ -35,8 +35,7 @@ export default class Header extends React.Component {
           <nav
             className="navbar is-white"
             role="navigation"
-            aria-label="main navigation"
-          >
+            aria-label="main navigation">
             <div className="navbar-brand">
               <a className="navbar-item" href="">
                 <img src="./images/logo-1024.png" alt="mainlogo" />
@@ -47,8 +46,7 @@ export default class Header extends React.Component {
                 className="navbar-burger burger"
                 aria-label="menu"
                 aria-expanded="false"
-                data-target="navbarBasicExample"
-              >
+                data-target="navbarBasicExample">
                 <span aria-hidden="true" />
                 <span aria-hidden="true" />
                 <span aria-hidden="true" />

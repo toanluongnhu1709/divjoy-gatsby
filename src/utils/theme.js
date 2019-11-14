@@ -40,7 +40,7 @@ export const theme = {
   menuTintColor: darkAccent,
   primaryFontFamily: "'Open Sans', sans-serif",
   secondaryFontFamily: "'Open Sans', sans-serif",
-  boxShadow: 'rgba(0,0,0,0.08) 0px 7px 18px',
+  boxShadow: '',
 };
 
 const GlobalStyle = createGlobalStyle`
