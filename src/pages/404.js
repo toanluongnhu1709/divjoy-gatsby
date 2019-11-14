@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Layout from '../components/Layout';
-import Seo from '../components/Seo';
 
 const Container = styled.div`
   margin-top: 2rem;
@@ -12,7 +11,6 @@ const Container = styled.div`
 
 const NotFoundPage = () => (
   <Layout>
-    <Seo title="NOT FOUND" />
     <section className="section">
       <Container className="container">
         <h1 className="title">NOT FOUND</h1>
