@@ -12,7 +12,7 @@ const Wrapper = styled.div`
 `;
 
 const Testimonials = props => {
-  const { subtext, names, img } = props;
+  const { subtext, names, img, company } = props;
   return (
     <Wrapper>
       <div className="card">
@@ -27,7 +27,7 @@ const Testimonials = props => {
           </div>
           <div className="media-content has-text-centered">
             <p className="has-text-weight-bold">{names}</p>
-            <p className="is-size-7">company</p>
+            <p className="is-size-7">{company}</p>
           </div>
         </div>
       </div>

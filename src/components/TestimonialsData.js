@@ -19,6 +19,7 @@ const TestimonialsData = () => (
             names="Sarah Kline"
             img="./images/cardimagetwo.jpeg"
             subtext="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!"
+            company="company"
           />
         </div>
         <div className="column">
@@ -27,6 +28,7 @@ const TestimonialsData = () => (
             names="Sarah Kline"
             img="./images/cardimageone.jpeg"
             subtext="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!"
+            company="company"
           />
         </div>
         <div className="column">
@@ -35,6 +37,7 @@ const TestimonialsData = () => (
             names="Sarah Kline"
             img="./images/cardimagethree.jpeg"
             subtext="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!"
+            company="company"
           />
         </div>
       </div>
