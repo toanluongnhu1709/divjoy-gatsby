@@ -5,6 +5,7 @@ import Testimonials from './Testimonials';
 
 const Section = styled.div`
   background-color: ${props => props.theme.lightAccent};
+  padding: 6rem 1.5rem;
 `;
 
 const TestimonialsData = () => (
