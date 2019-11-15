@@ -97,7 +97,8 @@ const Footer = () => (
         <a
           href="https://instagram.com"
           target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer"
+        >
           <span className="icon">
             <i className="fab fa-instagram" />
           </span>

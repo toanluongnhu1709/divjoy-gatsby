@@ -2,6 +2,7 @@
 
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 const Section = styled.div`
 
@@ -37,10 +38,11 @@ export default class Header extends React.Component {
             role="navigation"
             aria-label="main navigation">
             <div className="navbar-brand">
-              <a className="navbar-item" href="">
-                <img src="./images/logo-1024.png" alt="mainlogo" />
-              </a>
-
+              <Link to="/">
+                <a className="navbar-item" href="">
+                  <img src="./images/logo-1024.png" alt="mainlogo" />
+                </a>
+              </Link>
               <a
                 role="button"
                 className="navbar-burger burger"
@@ -56,9 +58,11 @@ export default class Header extends React.Component {
             <div id="navbarBasicExample" className="navbar-menu">
               <div className="navbar-end">
                 <div className="navbar-item">
-                  <div className="buttons">
-                    <a className="button is-light">Sign in</a>
-                  </div>
+                  <Link to="/signin">
+                    <div className="buttons">
+                      <a className="button is-light">Sign in</a>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>

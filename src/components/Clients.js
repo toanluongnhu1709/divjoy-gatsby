@@ -17,7 +17,7 @@ const Section = styled.div`
 const Clients = () => (
   <Section className="section">
     <div className="container">
-      <div className="columns is-centered is-multiline">
+      <div className="columns is-centered">
         <div className="column is-narrow has-text-centered">
           <div className="clients">
             <figure className="image">

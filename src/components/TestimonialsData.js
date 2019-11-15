@@ -11,7 +11,7 @@ const Section = styled.div`
 const TestimonialsData = () => (
   <Section className="section">
     <div className="container">
-      <h1 className="title  has-text-centered is-spaced has-text-weight-bold is-3">
+      <h1 className="title  has-text-centered is-spaced has-text-weight-bold is-3 main-text">
         Here s what people are saying
       </h1>
       <div className="columns">
