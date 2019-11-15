@@ -6,6 +6,7 @@ import Features from '../components/Features';
 import FeaturesContent from '../components/FeaturesContent';
 import TestimonialsData from '../components/TestimonialsData';
 import NewsLetterSection from '../components/NewsLetterSection';
+import Footer from '../components/Footer';
 import Layout from '../components/Layout';
 
 export default class IndexPage extends React.Component {
@@ -18,6 +19,7 @@ export default class IndexPage extends React.Component {
         <FeaturesContent />
         <TestimonialsData />
         <NewsLetterSection />
+        <Footer />
       </Layout>
     );
   }
