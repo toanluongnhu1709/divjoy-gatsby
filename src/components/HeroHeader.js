@@ -26,7 +26,9 @@ const HeroHeader = () => (
             This landing page is perfect for showing off your awesome product
             and driving people to sign up for a paid plan.
           </h2>
-          <button className="button is-primary is-medium">Get Started</button>
+          <button className="button is-primary is-medium" type="button">
+            Get Started
+          </button>
         </div>
         <div className="column">
           <figure className="image">

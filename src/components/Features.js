@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import FeaturesContent from './FeaturesContent';
+
 const Section = styled.div`
   p {
     max-width: 700px;
@@ -19,6 +21,7 @@ const Features = () => (
           minim veniam, quis nostrud.
         </p>
       </div>
+      <FeaturesContent />
     </div>
   </Section>
 );

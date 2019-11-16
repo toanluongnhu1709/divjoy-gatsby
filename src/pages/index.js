@@ -1,13 +1,11 @@
 import React from 'react';
 
+import Layout from '../components/Layout';
 import HeroHeader from '../components/HeroHeader';
 import Clients from '../components/Clients';
 import Features from '../components/Features';
-import FeaturesContent from '../components/FeaturesContent';
 import TestimonialsData from '../components/TestimonialsData';
 import NewsLetterSection from '../components/NewsLetterSection';
-import Footer from '../components/Footer';
-import Layout from '../components/Layout';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -16,10 +14,8 @@ export default class IndexPage extends React.Component {
         <HeroHeader />
         <Clients />
         <Features />
-        <FeaturesContent />
         <TestimonialsData />
         <NewsLetterSection />
-        <Footer />
       </Layout>
     );
   }

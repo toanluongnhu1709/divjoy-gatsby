@@ -11,17 +11,21 @@ const Wrapper = styled.div`
   }
 `;
 
+const ImageWrapper = styled.div`
+  justify-content: center;
+`;
+
 const Testimonials = props => {
   const { subtext, names, img, company } = props;
   return (
     <Wrapper>
       <div className="card">
         <div className="card-content has-text-centered ">
-          <div className="media align">
+          <ImageWrapper className="media align">
             <figure className="image is-96x96">
               <img className="is-rounded" src={img} alt="" />
             </figure>
-          </div>
+          </ImageWrapper>
           <div className="content">
             <p>{subtext}</p>
           </div>
